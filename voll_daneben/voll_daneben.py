@@ -6,7 +6,7 @@
 
 inf = 10000 
 
-f = open('./beispieldaten/beispiel1.txt')
+f = open('./beispieldaten/beispiel3.txt')
 tn = [int(x.rstrip('\n')) for x in f.readlines()]
 tn = [-inf] + sorted(tn)
 M = 10

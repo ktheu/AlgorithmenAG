@@ -4,6 +4,8 @@
 
 [Aufgabenstellung](./voll_daneben.pdf)
 
+[Lösungshinweise](./voll_daneben_loesungshinweise.pdf)
+
 
 #### Hinweise zu den Beispieldaten
 
@@ -134,4 +136,15 @@ print(cost, a)
 
 ```        
  
+Ausgaben:
 
+```
+beispiel1:
+4950 [50, 145, 240, 335, 430, 525, 630, 735, 840, 945]
+
+beispiel2:
+1924 [59, 172, 315, 368, 421, 539, 651, 777, 862, 929]
+
+beispiel3:
+2160 [100, 240, 340, 440, 520, 580, 660, 720, 860, 960]
+```
