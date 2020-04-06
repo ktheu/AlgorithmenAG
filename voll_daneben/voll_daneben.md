@@ -67,7 +67,7 @@ Ausgabe:
 
 Rekursion über die Anzahl der auszuwählenden Zahlen. Der Ansatz ist etwas allgemeiner (wie häufig bei der Rekursion,
 damit man die kleinere Problemgröße zum Aufbau nutzen kann).
-Um wiederholte rekursive Aufrufe zu vermeiden, nutzen wir memoization (vereinfachte dynamischer Programmierung).
+Um wiederholte rekursive Aufrufe zu vermeiden, nutzen wir memoization (vereinfachte dynamische Programmierung).
 
  
 ```
