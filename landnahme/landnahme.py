@@ -1,16 +1,5 @@
-## Landnahme
 
 
-34. Jugendwettbewerb Informatik - J1
-
-[Aufgabenstellung](./landnahme.pdf)
-
-[Lösungshinweise](./landnahme_loesungshinweise.pdf)
-
-
-#### Python
-
-```
 class Rechteck:
     def __init__(self, x1, y1, x2, y2):
         self.x1 = x1
@@ -49,14 +38,3 @@ for j in range(1, len(rechtecke)):
 for r in rechtecke:
     entscheidung = "genehmigt" if r.genehmigt else "abgelehnt"
     print(r, entscheidung)
-
-
-```
-
-Ausgabe:
-
-```
-2 3 5 5 genehmigt
-1 2 4 4 abgelehnt
-3 1 6 3 genehmigt
-```
