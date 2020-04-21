@@ -4,6 +4,8 @@
 
 [Aufgabenstellung](./baywatch.pdf)
 
+[Lösungshinweise](./baywatch_loesungshinweise.pdf)
+
 
 #### Hinweise zu den Beispieldaten
 

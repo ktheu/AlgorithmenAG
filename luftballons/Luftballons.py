@@ -35,39 +35,6 @@ def bestwahl(lvm,target):
         return lvm.index(min([x for x in lvm if x > 0])) 
     else:
         return lvm.index(min(bestwahl))     # wert über target wurde erreicht
-             
-
-
-
-'''
-solange noch ballons vorhanden sind:
-    wähle den besten index aus den Fächern aus
-    leere das fach in die ausgabe
-    fülle nach
-    wenn ausgaben >= 20: fülle ab
-'''
-
-
-'''
-target = 20
-schale = 0
-verpackt = 0
-
-ballons = ballons + 10*[0]    # damit auch die letzten noch abgefüllt werden können
-
-while ballons oder schale+lvm > target:
-    i = bestwahl(lvm,target)
-    anzahl = lmv[i]
-    lvm[i] = ballon.popleft()
-    target -= anzahl
-    
-    schale += anzahl
-    verpackt += anzahl
-    if schale >=20:
-        verpacke schale Ballons
-        target = 20
-        schale = 0
-'''
 
 f = open('./beispieldaten/luftballons1.txt')
 a = [int(x.rstrip('\n')) for x in f.readlines()]

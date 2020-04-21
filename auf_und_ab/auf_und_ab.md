@@ -2,11 +2,10 @@
 
 37. Bundeswettbewerb Informatik - Runde 1 - J1 
 
-[Aufgabenstellung](./junioraufgabe1-Auf_und_Ab.pdf)  -  [Spielbrett](./leiterspiel.pdf)
+[Aufgabenstellung](./auf_und_ab.pdf)  -  [Spielbrett](./leiterspiel.pdf)
 
 
-#### Inhalte
-Dictionaries, Sets
+[Lösungshinweise](./auf_und_ab_loesungshinweise.pdf)
 
 
 #### Pseudocode 
